@@ -3,7 +3,7 @@ import socialLinksList from './socialLinksList.mjs'
 
 const data = {
     title: {
-        text: 'Stanton',
+        text: 'Lectus',
         href: '#'
     },
     shoppingCart: {

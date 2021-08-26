@@ -1,9 +1,9 @@
 const data = {
     links: [
-        { text: 'Blog', href: '#' },
-        { text: 'À propos', href: '#' },
-        { text: 'Contact', href: '#' },
-        { text: 'Acheter', href: '#' }
+        { text: 'Lorem', href: '#' },
+        { text: 'Consectetur', href: '#' },
+        { text: 'Vivamus augue', href: '#' },
+        { text: 'Imperdiet', href: '#' }
     ]
 }
 
