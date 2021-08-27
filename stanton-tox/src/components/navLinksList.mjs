@@ -14,12 +14,14 @@ for(const item of data.links)
     linksList += `
         <li class="dib ph3">
             <a href="${ item.href }" class="link dim near-black">
-                ${ item.text }</a></li>
+                ${ item.text }</a>
+        </li>
     `
 
 const template = `
-    <ul class="flex list pl0 f5">
-        ${ linksList }</ul>
+    <ul class="flex list pl0 f5 nowrap">
+        ${ linksList }
+    </ul>
 `
 
 export default template

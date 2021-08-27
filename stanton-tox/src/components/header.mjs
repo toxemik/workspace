@@ -18,22 +18,16 @@ const template = `
         <div class="header-title-nav-wrapper w-100 flex justify-between items-center">
             <div class="header-title-box pa3">
                 <a href="${ data.title.href }" class="link dim near-black f2">
-                    ${ data.title.text }
-                </a>
-            </div>
+                    ${ data.title.text }</a></div>
             <div class="header-nav-box ph3">
-                ${ navLinksList }
-            </div>
+                ${ navLinksList }</div>
         </div>
         <div class="actions-wrapper flex items-center justify-center">
             <div class="header-social-box ph3">
-                ${ socialLinksList }
-            </div>
+                ${ socialLinksList }</div>
             <div class="header-cart-box ph3">
                 <a href="${ data.shoppingCart.href }" class="link dim orange f3">
-                    ${ data.shoppingCart.value }
-                </a>
-            </div>
+                    ${ data.shoppingCart.value }</a></div>
         </div>
     </header>
 `
