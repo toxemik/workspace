@@ -1,10 +1,7 @@
 const data = {
     links: [
-        { text: 'Lorem',            href: '#' },
-        { text: 'Consectetur',      href: '#' },
-        { text: 'Vivamus augue',    href: '#' },
-        { text: 'Imperdiet',        href: '#' },
-        { text: 'About',            href: 'about.html' }
+        { text: 'Home',     href: 'index.html' },
+        { text: 'About',    href: 'about.html' }
     ]
 }
 
