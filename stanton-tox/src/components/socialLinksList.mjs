@@ -11,7 +11,7 @@ let linksList = new String
 for(const item of data.links)
     linksList += `
         <li class="dib ph3">
-            <a href="${ item.href }" class="link dim near-black">
+            <a href="${ item.href }" class="link dim near-white">
                 ${ item.value }</a>
         </li>
     `

@@ -8,9 +8,9 @@ const data = {
 }
 
 const template = `
-    <section class="flex flex-column-m pa3">
-        <div class="section-title-text-wrapper w-50 w-100-m">
-            <div class="section-title-box f2 fw3 dark-gray measure lh-title pa3">
+    <section class="flex-l pa3">
+        <div class="section-title-text-wrapper w-100 w-50-l">
+            <div class="section-title-box f2 fw2 dark-gray measure lh-title pa3">
                 ${ data.sections[0].title }</div>
             <div class="section-text-box f5 fw2 dark-gray measure lh-copy tracked pa3 ml-auto mr-auto">
                 <p>
@@ -19,7 +19,7 @@ const template = `
                     Sed luctus sapien ac quam elementum, a faucibus dui accumsan. Nulla at urna in nulla dapibus ornare. Quisque eu consectetur quam. Vestibulum quis magna mauris. Cras ornare, lectus eget malesuada elementum, erat mi eleifend mauris, id vestibulum lacus felis non nisi. Morbi nec mi vitae enim volutpat ultricies at eget lectus. Ut porta iaculis semper. Nullam ornare, sem nec laoreet consectetur, quam tortor venenatis augue, nec condimentum tellus neque vitae dui. Quisque rutrum laoreet augue, quis iaculis risus tincidunt id. Sed elementum viverra mi non interdum. Proin lacinia augue dui, nec sodales ligula vehicula dignissim. Nam ut dolor fringilla, sagittis enim vel, pretium velit. Donec eget efficitur nibh, nec blandit tellus.</p>
             </div>
         </div>
-        <div class="section-image-box w-50 w-100-m pa3 tc">
+        <div class="section-image-box w-100 w-50-l pa3 tc">
             <img src="${ data.sections[0].image }"/></div>
     </section>
 `

@@ -1,5 +1,5 @@
 const data = {
-    text: 'Built with <a href="#" class="link dim orange">tox</a>'
+    text: 'Built with <a href="#" class="link dim blue">tox</a>'
 }
 
 const template = `

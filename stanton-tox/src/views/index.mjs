@@ -17,9 +17,9 @@ const data = {
 }
 
 const template = `
-    <section class="flex-l pa3 items-center">
+    <section class="flex-l pa3 pv6 items-center bg-near-white">
         <div class="section-title-text-wrapper w-100 w-50-l">
-            <div class="section-title-box f1 f-headline-l fw3 dark-gray measure lh-title pa3 tc tl-l">
+            <div class="section-title-box f1 f-headline-l fw2 dark-gray measure lh-title pa3">
                 ${ data.sections.first.title }</div>
             <div class="section-text-box f4 fw2 dark-gray measure lh-copy tracked pa3 ml-auto mr-auto">
                 ${ data.sections.first.text }</div>
@@ -27,13 +27,13 @@ const template = `
         <div class="section-image-box pa3 w-100 w-50-l">
             <img src="${ data.sections.first.image }"/></div>
     </section>
-    <section class="pa3">
-        <div class="f1 fw3 dark-gray measure-narrow tc lh-title pa3 ml-auto mr-auto">
+    <section class="pa3 pv6 bg-washed-blue">
+        <div class="f1 fw2 dark-gray measure-narrow tc-l lh-title pa3 ml-auto mr-auto">
             ${ data.sections.second.title }</div>
         <div class="f4 fw2 dark-gray measure lh-copy tracked pa3 ml-auto mr-auto">
             ${ data.sections.second.text }</div>
         <div class="pa3 tc">
-            <a href="${ data.sections.second.button.href }" class="link dim near-white bg-near-black pa3">${ data.sections.second.button.text }</a></div>
+            <a href="${ data.sections.second.button.href }" class="link dim near-white bg-blue pa3">${ data.sections.second.button.text }</a></div>
     </section>
 `
 
