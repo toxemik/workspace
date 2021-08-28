@@ -1,5 +1,6 @@
 import navLinksList from './navLinksList.mjs'
 import socialLinksList from './socialLinksList.mjs'
+import navLinksPanel from './navLinksPanel.mjs'
 
 const data = {
     title: {
@@ -18,6 +19,7 @@ const data = {
 }
 
 const template = `
+    ${ navLinksPanel }
     <header class="flex w-100 pa3 helvetica ttu items-center bg-dark-gray">
         <div class="header-title-nav-wrapper w-100 flex justify-between items-center">
             <div class="header-title-box pa3">
@@ -33,7 +35,7 @@ const template = `
                 <a href="${ data.shoppingCart.href }" class="link dim blue f3">
                     ${ data.shoppingCart.value }</a></div>
         </div>
-        <a href="#" class="link dim near-white f3 dib dn-l">${ data.burgerButton.value }</a>
+        <div id="burgerButton" class="link dim near-white f3 dib dn-l pointer" onclick="showModal()">${ data.burgerButton.value }</div>
     </header>
 `
 

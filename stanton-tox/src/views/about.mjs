@@ -8,11 +8,11 @@ const data = {
 }
 
 const template = `
-    <section class="flex-l pa3">
+    <section class="flex-l pa3 pv6">
         <div class="section-title-text-wrapper w-100 w-50-l">
-            <div class="section-title-box f2 fw2 dark-gray measure lh-title pa3">
+            <div class="section-title-box f2 fw2 dark-gray measure-narrow lh-title pa3">
                 ${ data.sections[0].title }</div>
-            <div class="section-text-box f5 fw2 dark-gray measure lh-copy tracked pa3 ml-auto mr-auto">
+            <div class="section-text-box f5 fw2 dark-gray measure lh-copy tracked pa3">
                 <p>
                     Integer eu elementum nibh. Suspendisse ex tellus, sollicitudin a vestibulum in, placerat vitae diam. Aliquam erat volutpat. Aliquam nec hendrerit lorem, ut dapibus elit. Praesent pretium dignissim porta. Nulla hendrerit orci in sem hendrerit dictum. Morbi leo dolor, fringilla et odio in, commodo malesuada nisl. Sed sed accumsan mi. Vivamus arcu justo, rutrum ac est at, blandit maximus tellus. Nunc venenatis mi vel justo interdum, a vestibulum felis eleifend. Aenean ut feugiat dui. Aliquam tempus molestie ipsum. Curabitur porta libero dolor, vitae efficitur diam suscipit ut. Sed sagittis lorem nec eleifend consectetur. Nunc aliquet erat non iaculis commodo.</p>
                 <p>

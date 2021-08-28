@@ -19,16 +19,16 @@ const data = {
 const template = `
     <section class="flex-l pa3 pv6 items-center bg-near-white">
         <div class="section-title-text-wrapper w-100 w-50-l">
-            <div class="section-title-box f1 f-headline-l fw2 dark-gray measure lh-title pa3">
+            <div class="section-title-box f1 f-headline-l fw2 dark-gray measure-narrow lh-title pa3">
                 ${ data.sections.first.title }</div>
-            <div class="section-text-box f4 fw2 dark-gray measure lh-copy tracked pa3 ml-auto mr-auto">
+            <div class="section-text-box f4 fw2 dark-gray measure lh-copy tracked pa3">
                 ${ data.sections.first.text }</div>
         </div>
         <div class="section-image-box pa3 w-100 w-50-l">
             <img src="${ data.sections.first.image }"/></div>
     </section>
     <section class="pa3 pv6 bg-washed-blue">
-        <div class="f1 fw2 dark-gray measure-narrow tc-l lh-title pa3 ml-auto mr-auto">
+        <div class="f1 fw2 dark-gray measure-narrow tc lh-title pa3 ml-auto mr-auto">
             ${ data.sections.second.title }</div>
         <div class="f4 fw2 dark-gray measure lh-copy tracked pa3 ml-auto mr-auto">
             ${ data.sections.second.text }</div>
