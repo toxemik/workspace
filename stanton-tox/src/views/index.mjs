@@ -17,14 +17,14 @@ const data = {
 }
 
 const template = `
-    <section class="flex flex-column-m pa3 items-center">
-        <div class="section-title-text-wrapper w-50 w-100-m">
-            <div class="section-title-box f-headline fw3 dark-gray measure lh-title pa3">
+    <section class="flex-l pa3 items-center">
+        <div class="section-title-text-wrapper w-100 w-50-l">
+            <div class="section-title-box f1 f-headline-l fw3 dark-gray measure lh-title pa3 tc tl-l">
                 ${ data.sections.first.title }</div>
             <div class="section-text-box f4 fw2 dark-gray measure lh-copy tracked pa3 ml-auto mr-auto">
                 ${ data.sections.first.text }</div>
         </div>
-        <div class="section-image-box w-50 w-100-m pa3">
+        <div class="section-image-box pa3 w-100 w-50-l">
             <img src="${ data.sections.first.image }"/></div>
     </section>
     <section class="pa3">
