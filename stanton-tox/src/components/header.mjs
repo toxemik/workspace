@@ -35,7 +35,7 @@ const template = `
                 <a href="${ data.shoppingCart.href }" class="link dim blue f3">
                     ${ data.shoppingCart.value }</a></div>
         </div>
-        <div id="burgerButton" class="link dim near-white f3 dib dn-l pointer" onclick="showModal()">${ data.burgerButton.value }</div>
+        <div id="burgerButton" class="link dim near-white f3 pa3 dib dn-l pointer" onclick="showModal()">${ data.burgerButton.value }</div>
     </header>
 `
 
