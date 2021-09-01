@@ -1,7 +1,7 @@
 const data = { text: "Hello World!" }
 
 const template = `
-        <div>${ data.text }</div>
+        <p style="color: blue">${ data.text }</p>
     `
 
 export default template

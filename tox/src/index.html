@@ -10,9 +10,14 @@
     <div id="app"></div>
 
     <script type="module">
-        import app from './src/app.mjs'
+        // import the index.mjs view
+        import view from './src/views/index.mjs'
 
-        document.querySelector('#app').innerHTML = app
+        const template = `
+            ${ view }
+        `
+
+        document.querySelector('#app').innerHTML = template
     </script>
 </body>
 </html>
